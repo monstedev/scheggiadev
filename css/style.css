@@ -161,7 +161,7 @@ nav button{
 
 .nav__container ul li a{
     font-weight: 500;
-    color: var(--color-dark)
+    color: var(--color-primary)
 } 
 
 .nav__container .btn{
