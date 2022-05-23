@@ -64,7 +64,7 @@ html{
 }
 
 body{
-    font-family: "Uni Sans", sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 1.7;
     color: var(--color-dark);
     background: var(--color-white);
