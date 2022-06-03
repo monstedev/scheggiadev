@@ -42,7 +42,7 @@
         display: block;
     }
     .header #wave{
-        bottom: 0
+        display: none;
     }
     .about__container{
         grid-template-columns: 1fr;
