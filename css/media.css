@@ -27,8 +27,7 @@
         width: 100%;
         height: 40%;
         position: absolute;
-        position: fixed;
-        background: var(--color-primary);
+        color: white;
         flex-direction: column;
         right: 0;
         top: 0;
@@ -47,19 +46,24 @@
     }
     .about__container{
         grid-template-columns: 1fr;
-        text-align: center;
         width: 60%;
         margin-top: 0;
+        height: auto;
     }
+    .about .about__container .about__left{
+        text-align: center;
+    }    
+    
     .products__container{
         grid-template-columns: repeat(2, 1fr);
     }
     .contact__container{
         grid-template-columns: 1fr;
-        text-align: center;
         width: 60%;
     }
-    
+    .contact__left{
+        text-align: center;
+    }
     .contact__container iframe{
         margin-left: 0;
     }

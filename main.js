@@ -21,11 +21,15 @@ const closeNav = () => {
 
 closeBtn.addEventListener('click', closeNav)
 
-// CHANGE NAVBAR ON SCROLL
+// const title = document.querySelector('#about-title')
 
-// window.addEventListener('scroll', () => {
-//     document.querySelector('#logo').classList.toggle('logo-scroll', window.scrollY > 600)
-//     document.querySelector('#a1').classList.toggle('a-scroll', window.scrollY > 600)
-//     document.querySelector('#a2').classList.toggle('a-scroll', window.scrollY > 600)
-//     document.querySelector('#a3').classList.toggle('a-scroll', window.scrollY > 600)
-// })
+// var x = window.matchMedia("(max-width: 1024px)")
+// media(x)
+// x.addListener(media) 
+
+// function media(x) {
+//     if (x.matches) { 
+//         title.classList.remove('text-start')
+//         title.classList.toggle('text-center')
+//     }
+//   }
